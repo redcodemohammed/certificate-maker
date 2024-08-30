@@ -1,0 +1,116 @@
+{
+  "zodI18n": {
+    "errors": {
+      "custom": "إدخال غير صالح",
+      "invalid_arguments": "وسائط الدالة غير صالحة",
+      "invalid_date": "تاريخ غير صالح",
+      "invalid_enum_value": "قيمة التعداد غير صالحة. المتوقع {options} للمراجعة، تم استلام '{received}'",
+      "invalid_intersection_types": "لا يمكن دمج نتائج التقاطع",
+      "invalid_literal": "قيمة حرفية غير صالحة، المتوقع {expected}",
+      "invalid_return_type": "نوع القيمة المرتجعة من الدالة غير صالح",
+      "invalid_string": {
+        "cuid": "غير صالح {validation}",
+        "datetime": "غير صالح {validation}",
+        "email": "{validation} غير صالح",
+        "endsWith": "إدخال غير صالح: يجب أن ينتهي بـ \"{endsWith}\"",
+        "regex": "غير صالح",
+        "startsWith": "إدخال غير صالح: يجب أن يبدأ بـ \"{startsWith}\"",
+        "url": "غير صالح {validation}",
+        "uuid": "غير صالح {validation}"
+      },
+      "invalid_type": "المتوقع {expected}، تم استلام {received}",
+      "invalid_type_received_undefined": "مطلوب",
+      "invalid_union": "إدخال غير صالح",
+      "invalid_union_discriminator": "قيمة المميز غير صالحة. المتوقع {options} للمراجعة",
+      "not_finite": "يجب أن يكون الرقم محدود",
+      "not_multiple_of": "يجب أن يكون الرقم مضاعف لـ {multipleOf}",
+      "required": "مطلوب",
+      "too_big": {
+        "array": {
+          "exact": "يجب أن يحتوي المصفوفة بالضبط على {maximum} عنصر/عناصر",
+          "inclusive": "يجب أن يحتوي المصفوفة على الأكثر {maximum} عنصر/عناصر",
+          "not_inclusive": "يجب أن يحتوي المصفوفة على أقل من {maximum} عنصر/عناصر"
+        },
+        "date": {
+          "exact": "يجب أن يكون التاريخ بالضبط {maximum}",
+          "inclusive": "يجب أن يكون التاريخ أصغر من أو يساوي {maximum}",
+          "not_inclusive": "يجب أن يكون التاريخ أصغر من {maximum}"
+        },
+        "number": {
+          "exact": "يجب أن يكون الرقم بالضبط {maximum}",
+          "inclusive": "يجب أن يكون الرقم أقل من أو يساوي {maximum}",
+          "not_inclusive": "يجب أن يكون الرقم أقل من {maximum}"
+        },
+        "set": {
+          "exact": "إدخال غير صالح",
+          "inclusive": "إدخال غير صالح",
+          "not_inclusive": "إدخال غير صالح"
+        },
+        "string": {
+          "exact": "يجب أن يحتوي النص بالضبط على {maximum} حرف/أحرف",
+          "inclusive": "يجب أن يحتوي النص على الأكثر {maximum} حرف/أحرف",
+          "not_inclusive": "يجب أن يحتوي النص على أقل من {maximum} حرف/أحرف"
+        }
+      },
+      "too_small": {
+        "array": {
+          "exact": "يجب أن يحتوي المصفوفة بالضبط على {minimum} عنصر/عناصر",
+          "inclusive": "يجب أن يحتوي المصفوفة على الأقل {minimum} عنصر/عناصر",
+          "not_inclusive": "يجب أن يحتوي المصفوفة على أكثر من {minimum} عنصر/عناصر"
+        },
+        "date": {
+          "exact": "يجب أن يكون التاريخ بالضبط {minimum}",
+          "inclusive": "يجب أن يكون التاريخ أكبر من أو يساوي {minimum}",
+          "not_inclusive": "يجب أن يكون التاريخ أكبر من {minimum}"
+        },
+        "number": {
+          "exact": "يجب أن يكون الرقم بالضبط {minimum}",
+          "inclusive": "يجب أن يكون الرقم أكبر من أو يساوي {minimum}",
+          "not_inclusive": "يجب أن يكون الرقم أكبر من {minimum}"
+        },
+        "set": {
+          "exact": "إدخال غير صالح",
+          "inclusive": "إدخال غير صالح",
+          "not_inclusive": "إدخال غير صالح"
+        },
+        "string": {
+          "exact": "يجب أن يحتوي النص بالضبط على {minimum} حرف/أحرف",
+          "inclusive": "يجب أن يحتوي النص على الأقل {minimum} حرف/أحرف",
+          "not_inclusive": "يجب أن يحتوي النص على أكثر من {minimum} حرف/أحرف"
+        }
+      },
+      "unrecognized_keys": "مفاتيح غير معترف بها في الكائن: {keys} للمراجعة"
+    },
+    "types": {
+      "array": "مصفوفة",
+      "bigint": "bigint",
+      "boolean": "بوليان",
+      "date": "تاريخ",
+      "float": "عدد عشري",
+      "function": "دالة",
+      "integer": "عدد صحيح",
+      "map": "خريطة",
+      "nan": "ليس رقم",
+      "never": "أبدا",
+      "null": "فارغ",
+      "number": "رقم",
+      "object": "كائن",
+      "promise": "وعد",
+      "set": "مجموعة",
+      "string": "نص",
+      "symbol": "رمز",
+      "undefined": "غير معرف",
+      "unknown": "غير معروف",
+      "void": "فارغ",
+      "uuid": "uuid"
+    },
+    "validations": {
+      "cuid": "cuid",
+      "datetime": "تاريخ ووقت",
+      "email": "بريد إلكتروني",
+      "regex": "تعبير منتظم",
+      "url": "رابط",
+      "uuid": "uuid"
+    }
+  }
+}
